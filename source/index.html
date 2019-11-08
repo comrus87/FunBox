@@ -1,13 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Стартовый шаблон</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Тестовое задание</title>
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-  <h1>Добро пожаловать в Лигу А.</h1>
+
+  <main class="page-main">
+    <div class="page-main__wrap">
+      <h2 class="page-main__title">Ты сегодня покормил кота?</h2>
+      <ul class="page-main__list">
+        <li class="page-main__item page-main__item-foie-gras">
+          <div class="page-main__package">
+            <p class="page-main__description">Сказочное заморское яство</p>
+            <h3 class="page-main__item-title">Нямушка</h3>
+            <h4 class="page-main__item-type">с фуа-гра</h4>
+            <p class="page-main__text"><b>10</b> порций</p>
+            <p class="page-main__text">мышь в подарок</p>
+
+            <div class="page-main__img-container">
+              <img src="img/cat-photo.png" width="370" height="361" alt="Сытый котэ">
+            </div>
+
+            <div class="page-main__weight">
+              <span class="page-main__weight-count">0,5</span>
+              <span class="page-main__weight-unit">кг</span>
+            </div>
+          </div>
+          <p class="page-main__promo-description">Чего сидишь? Порадуй котэ, &nbsp;<a class="page-main__buy-link">купи.</a>
+          </p>
+        </li>
+
+        <li class="page-main__item page-main__item-fish">
+          <div class="page-main__package">
+            <p class="page-main__description">Сказочное заморское яство</p>
+            <h3 class="page-main__item-title">Нямушка</h3>
+            <h4 class="page-main__item-type">с рыбой</h4>
+            <p class="page-main__text"><b>40</b> порций</p>
+            <p class="page-main__text"><b>2</b> мыши в подарок</p>
+
+            <div class="page-main__img-container">
+              <img src="img/cat-photo.png" width="370" height="361" alt="Сытый котэ">
+            </div>
+
+            <div class="page-main__weight">
+              <span class="page-main__weight-count">2</span>
+              <span class="page-main__weight-unit">кг</span>
+            </div>
+          </div>
+          <p class="page-main__promo-description">Чего сидишь? Порадуй котэ, &nbsp;<a class="page-main__buy-link">купи.</a></p>
+        </li>
+
+        <li class="page-main__item page-main__item-chicken">
+          <div class="page-main__package page-main__package--disabled">
+            <p class="page-main__description">Сказочное заморское яство</p>
+            <h3 class="page-main__item-title">Нямушка</h3>
+            <h4 class="page-main__item-type">с курой</h4>
+            <p class="page-main__text"><b>100</b> порций</p>
+            <p class="page-main__text"><b>5</b> мышей в подарок</p>
+            <p class="page-main__text">заказчик доволен</p>
+
+            <div class="page-main__img-container">
+              <img src="img/cat-photo.png" width="370" height="361" alt="Сытый котэ">
+            </div>
+
+            <div class="page-main__weight">
+              <span class="page-main__weight-count">5</span>
+              <span class="page-main__weight-unit">кг</span>
+            </div>
+          </div>
+          <p class="page-main__promo-description">Чего сидишь? Порадуй котэ, &nbsp; <a class="page-main__buy-link">купи.</a></p>
+        </li>
+      </ul>
+    </div>
+  </main>
+<script src="js/script.js"></script>
 </body>
 </html>
